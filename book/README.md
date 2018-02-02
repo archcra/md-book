@@ -17,3 +17,7 @@ http://localhost:5200/
 ```
 
 
+生成PDF:
+```
+$ docker run --rm -v "$PWD:/gitbook" billryan/gitbook gitbook pdf .
+```
